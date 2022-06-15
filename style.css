@@ -17,7 +17,8 @@ body {
   border: 5px rgb(120, 91, 158);
 }
 .sk1 {
-    text-align: center;
+    
+  text-align: center;
   margin: 46px;
   padding: 2px;
 }
@@ -47,6 +48,7 @@ body {
   border-bottom: 5px rgb(229, 215, 252) solid;
   border-width: 3px;
   border-bottom-width: 3px;
+  border-radius:15px;
   padding: 5px;
   width: 80%;
   margin: auto;
@@ -73,18 +75,17 @@ h2 {
 }
 .shop {
   margin: 46px;
-  
 }
 .pic {
   text-align: center;
   width: fit-content;
 }
-.sk1 h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 48px;
-    text-align: center;
+.sk1 h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 48px;
+  text-align: center;
 }
-.shop h1{
-    font-family: 'Helvetica Neue';
-    font-weight: 900;
+.shop h1 {
+  font-family: "Helvetica Neue";
+  font-weight: 900;
 }

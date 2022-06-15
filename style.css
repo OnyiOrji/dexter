@@ -3,7 +3,7 @@ h1{
 }
 
 body{
-    background-color:#0c0c0c;
+    background-color:#777676;
     color:#ffffff;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,7 +12,7 @@ body{
     line-height: 1.6em;
 }
 .container{
-    width: 80%;
+    width: 40%;
     margin: auto;
     border: 5px rgb(120, 91, 158);
 }
@@ -24,6 +24,8 @@ body{
     border-left:5px rgb(54, 0, 141) solid;
     border-top:5px rgb(229, 215, 252) solid;
     border-bottom:5px rgb(229, 215, 252) solid;
+    border-width: 3px;
+    border-bottom-width: 3px;
 }
 .login{
     background-color: #b29adf;
@@ -35,11 +37,29 @@ body{
     border-bottom:5px rgb(229, 215, 252) solid;
 }
 .bod{
-    background-color:#0c0c0c;
+    background-color:#777676;
     color:#ffffff;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.6em;
+}
+.img{
+     border-right: 5px coral solid;
+     border-left: 5px coral solid;
+     border-top: 5px rgb(247, 185, 162) solid;
+     border-bottom: 5px rgb(247, 185, 162) solid;
+     padding: 5px;
+     margin: auto;
+}
+h2{
+    color:#ffffff;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 55px;
+    font-weight: normal;
+    line-height: .6em;
+    padding: 2px;
+
 }

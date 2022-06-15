@@ -1,69 +1,83 @@
-h1{
-    color:rgb(120, 91, 158)
+h1 {
+  color: rgb(120, 91, 158);
 }
 
-body{
-    background-color:#777676;
-    color:#ffffff;
+body {
+  background-color: #777676;
+  color: #ffffff;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.6em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
 }
-.container{
-    width: 40%;
-    margin: auto;
-    border: 5px rgb(120, 91, 158);
+.container {
+  width: 40%;
+  margin: auto;
+  border: 5px rgb(120, 91, 158);
 }
-.sk1{
-    
-    
+.sk1 {
+  margin: 46px;
+  padding: 2px;
 }
-.login{
-    background-color: #b29adf;
-    color: #fff;
+.login {
+  background-color: #b29adf;
+  color: #fff;
 
-    border-right:5px rgb(54, 0, 141) solid;
-    border-left:5px rgb(54, 0, 141) solid;
-    border-top:5px rgb(229, 215, 252) solid;
-    border-bottom:5px rgb(229, 215, 252) solid;
+  border-right: 5px rgb(54, 0, 141) solid;
+  border-left: 5px rgb(54, 0, 141) solid;
+  border-top: 5px rgb(229, 215, 252) solid;
+  border-bottom: 5px rgb(229, 215, 252) solid;
 }
-.bod{
-    background-color:#777676;
-    color:#ffffff;
+.bod {
+  background-color: #777676;
+  color: #ffffff;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.6em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
 }
-.img{
-    background-color: #b29adf;
-     border-right:5px rgb(54, 0, 141) solid;
-    border-left:5px rgb(54, 0, 141) solid;
-    border-top:5px rgb(229, 215, 252) solid;
-    border-bottom:5px rgb(229, 215, 252) solid;
-    border-width: 3px;
-    border-bottom-width: 3px;
-     padding: 5px;
-     width: 80%;
-     margin: auto;
+.img {
+  background-color: #b29adf;
+  border-right: 5px rgb(54, 0, 141) solid;
+  border-left: 5px rgb(54, 0, 141) solid;
+  border-top: 5px rgb(229, 215, 252) solid;
+  border-bottom: 5px rgb(229, 215, 252) solid;
+  border-width: 3px;
+  border-bottom-width: 3px;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
 }
-h2{
-    color:#ffffff;
+h2 {
+  color: #ffffff;
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 55px;
-    font-weight: normal;
-    line-height: .6em;
-    padding: 2px;
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 55px;
+  font-weight: normal;
+  line-height: 0.6em;
+  padding: 2px;
 }
-.img h2{
-        font-family: 'Gill Sans';
-        font-weight: 800;
-        font-style: italic;
-        text-decoration: underline;
-
+.img h2 {
+  font-family: "Gill Sans";
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  margin: 46px;
+  padding: 2px;
+}
+.shop {
+  margin: 46px;
+  padding: 2px;
+}
+.pic {
+  text-align: center;
+}
+.sk1 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    text-align: center;
 }

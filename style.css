@@ -17,6 +17,7 @@ body {
   border: 5px rgb(120, 91, 158);
 }
 .sk1 {
+    text-align: center;
   margin: 46px;
   padding: 2px;
 }
@@ -49,6 +50,7 @@ body {
   padding: 5px;
   width: 80%;
   margin: auto;
+  text-align: center;
 }
 h2 {
   color: #ffffff;
@@ -71,10 +73,11 @@ h2 {
 }
 .shop {
   margin: 46px;
-  padding: 2px;
+  
 }
 .pic {
   text-align: center;
+  width: fit-content;
 }
 .sk1 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

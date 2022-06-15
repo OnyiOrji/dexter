@@ -17,7 +17,6 @@ body {
   border: 5px rgb(120, 91, 158);
 }
 .sk1 {
-    
   text-align: center;
   margin: 46px;
   padding: 2px;
@@ -48,7 +47,7 @@ body {
   border-bottom: 5px rgb(229, 215, 252) solid;
   border-width: 3px;
   border-bottom-width: 3px;
-  border-radius:15px;
+  border-radius: 15px;
   padding: 5px;
   width: 80%;
   margin: auto;
@@ -75,6 +74,12 @@ h2 {
 }
 .shop {
   margin: 46px;
+  padding: 0;
+  list-style: square;
+}
+.shop ul {
+  padding: 0;
+  list-style:square;
 }
 .pic {
   text-align: center;
@@ -88,4 +93,5 @@ h2 {
 .shop h1 {
   font-family: "Helvetica Neue";
   font-weight: 900;
+  list-style: square;
 }

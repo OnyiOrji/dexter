@@ -17,15 +17,8 @@ body{
     border: 5px rgb(120, 91, 158);
 }
 .sk1{
-    background-color: #b29adf;
-    color: #fff;
-
-    border-right:5px rgb(54, 0, 141) solid;
-    border-left:5px rgb(54, 0, 141) solid;
-    border-top:5px rgb(229, 215, 252) solid;
-    border-bottom:5px rgb(229, 215, 252) solid;
-    border-width: 3px;
-    border-bottom-width: 3px;
+    
+    
 }
 .login{
     background-color: #b29adf;
@@ -46,11 +39,15 @@ body{
     line-height: 1.6em;
 }
 .img{
-     border-right: 5px coral solid;
-     border-left: 5px coral solid;
-     border-top: 5px rgb(247, 185, 162) solid;
-     border-bottom: 5px rgb(247, 185, 162) solid;
+    background-color: #b29adf;
+     border-right:5px rgb(54, 0, 141) solid;
+    border-left:5px rgb(54, 0, 141) solid;
+    border-top:5px rgb(229, 215, 252) solid;
+    border-bottom:5px rgb(229, 215, 252) solid;
+    border-width: 3px;
+    border-bottom-width: 3px;
      padding: 5px;
+     width: 80%;
      margin: auto;
 }
 h2{
@@ -61,5 +58,12 @@ h2{
     font-weight: normal;
     line-height: .6em;
     padding: 2px;
+
+}
+.img h2{
+        font-family: 'Gill Sans';
+        font-weight: 800;
+        font-style: italic;
+        text-decoration: underline;
 
 }

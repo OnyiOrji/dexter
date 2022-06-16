@@ -29,6 +29,8 @@ body {
   border-left: 5px rgb(54, 0, 141) solid;
   border-top: 5px rgb(229, 215, 252) solid;
   border-bottom: 5px rgb(229, 215, 252) solid;
+  
+  
 }
 .bod {
   background-color: #e7e4e4;
@@ -120,4 +122,12 @@ h2 {
 }
 .bod label{
   display: block;
+}
+.bod input{
+  padding: 8px;
+  width: 40%;
+}
+.login h1{
+  
+  margin-left: 35px;
 }

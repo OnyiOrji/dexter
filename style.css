@@ -33,6 +33,7 @@ body {
 .bod {
   background-color: #e7e4e4;
   color: #000000;
+  
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -112,4 +113,11 @@ h2 {
   border-color: black;
   border-width: 6px;
   border-radius: 15px;
+}
+.bod .form-group{
+     padding-bottom: 15px;
+     margin-top: 100px;
+}
+.bod label{
+  display: block;
 }

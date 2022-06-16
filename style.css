@@ -75,13 +75,12 @@ h2 {
 }
 .shop {
   margin: 46px;
-  
+
   padding: 0;
   list-style: square;
 }
 .shop ul {
-  
-  list-style:square;
+  list-style: square;
 }
 .pic {
   text-align: center;
@@ -98,10 +97,9 @@ h2 {
   font-size: 48px;
   font-weight: 900;
   text-align: left;
-  
 }
-.shop li{
+.shop li {
   margin-left: 40px;
   padding-left: 3px;
-  list-style-image:url('../assets/check2.png');
+  list-style-image: url("../assets/check2.png");
 }

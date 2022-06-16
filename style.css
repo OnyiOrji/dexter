@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-  background-color: #777676;
+  background-color: #eeecec;
   color: #ffffff;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,7 +17,7 @@ body {
   border: 5px rgb(120, 91, 158);
 }
 .sk1 {
-  text-align: center;
+  text-align: left;
   margin: 46px;
   padding: 2px;
 }
@@ -31,7 +31,7 @@ body {
   border-bottom: 5px rgb(229, 215, 252) solid;
 }
 .bod {
-  background-color: #777676;
+  background-color: #e7e4e4;
   color: #ffffff;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,7 +48,7 @@ body {
   border-width: 3px;
   border-bottom-width: 3px;
   border-radius: 15px;
-  padding: 5px;
+  padding: 60px;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -64,16 +64,18 @@ h2 {
   padding: 2px;
 }
 .img h2 {
-  font-family: "Gill Sans";
-  font-weight: 800;
+  font-family:'Haettenschweiler';
+  letter-spacing: 1.2em;
+  font-weight: 500;
   font-style: italic;
-  text-decoration: underline;
   text-align: center;
+  margin-left: 50px;
   margin: 46px;
   padding: 2px;
 }
 .shop {
   margin: 46px;
+  margin-top:200px;
 
   padding: 0;
   list-style: square;
@@ -83,6 +85,7 @@ h2 {
 }
 .pic {
   text-align: center;
+  color: black;
   margin: 130px;
   width: fit-content;
 }
@@ -101,4 +104,12 @@ h2 {
   margin-left: 40px;
   padding-left: 3px;
   list-style-image: url("../assets/check2.png");
+}
+.p1{
+  margin-left: 450px;
+  margin-top: -250px;
+  border-style:double;
+  border-color: black;
+  border-width: 6px;
+  border-radius: 15px;
 }

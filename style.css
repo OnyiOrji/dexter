@@ -23,7 +23,7 @@ body {
 }
 .login {
   background-color: #b29adf;
-  color: #fff;
+  color: rgb(0, 0, 0);
 
   border-right: 5px rgb(54, 0, 141) solid;
   border-left: 5px rgb(54, 0, 141) solid;
@@ -32,7 +32,7 @@ body {
 }
 .bod {
   background-color: #e7e4e4;
-  color: #ffffff;
+  color: #000000;
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;

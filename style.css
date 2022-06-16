@@ -75,15 +75,17 @@ h2 {
 }
 .shop {
   margin: 46px;
+  
   padding: 0;
   list-style: square;
 }
 .shop ul {
-  padding: 0;
+  
   list-style:square;
 }
 .pic {
   text-align: center;
+  margin: 130px;
   width: fit-content;
 }
 .sk1 h1 {
@@ -93,9 +95,13 @@ h2 {
 }
 .shop h1 {
   font-family: "Helvetica Neue";
+  font-size: 48px;
   font-weight: 900;
-  list-style: square;
+  text-align: left;
+  
 }
 .shop li{
+  margin-left: 40px;
+  padding-left: 3px;
   list-style-image:url('../assets/check2.png');
 }

@@ -144,13 +144,31 @@ h2 {
   padding: 10px 8px;
   border: none;
 }
-.button {
+.button{
   background-color: #b29adf;
   color: #ffffff;
   padding: 10px 10px;
-  border-radius: 23px;
+  border-radius: 20px;
   margin-bottom: 20px;
   margin-left: 3px; 
 
   
+}
+.button:hover{
+  background: #000000;
+  color: #fff;
+}
+.submit .button{
+  background-color: #b29adf;
+  color: #ffffff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 3px; 
+
+  
+}
+.submit .button:hover{
+  background: #000000;
+  color: #fff;
 }

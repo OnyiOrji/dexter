@@ -109,10 +109,12 @@ h2 {
   list-style-image: url("../assets/check2.png");
 }
 .p1{
+  background-color: #c4c4c4;
   margin-left: 450px;
   margin-top: -250px;
   border-style:double;
   border-color: black;
+  padding: 8px;
   border-width: 1px;
   border-radius: 15px;
 }
@@ -141,10 +143,13 @@ h2 {
   padding: 10px 8px;
   border: none;
 }
-.p1 .sub {
-  background-color: #c4c4c4;
+.button {
+  background-color: #b29adf;
   color: #ffffff;
-  padding: 10px 8px;
-  border: 10px;
-  width: auto;
+  padding: 10px 10px;
+  border-radius: 23px;
+  margin-bottom: 20px;
+  margin-left: 3px; 
+
+  
 }

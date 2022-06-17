@@ -172,3 +172,10 @@ h2 {
   background: #000000;
   color: #fff;
 }
+.bloc{
+  float: left;
+  width: 33.3%;
+}
+.bloc h3{
+  color: #080808;
+}

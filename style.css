@@ -178,10 +178,15 @@ h2 {
   padding: 10px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  margin-bottom: 60px;
 }
 .bloc h3{
   color: #543683;
 }
 .bloc p{
   color: #000000;
+}
+.mainbl{
+  width: 99%;
+  margin-left: 10px;
 }

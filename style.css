@@ -113,7 +113,7 @@ h2 {
   margin-top: -250px;
   border-style:double;
   border-color: black;
-  border-width: 6px;
+  border-width: 1px;
   border-radius: 15px;
 }
 .bod .form-group{
@@ -135,9 +135,17 @@ h2 {
   padding: 8px;
   width: 100%;
 }
-.bod input[type="submit"]{
+.submit input[type="submit"]{
   background-color: #b29adf;
   color: #ffffff;
   padding: 10px 8px;
   border: none;
+}
+.p1 .sub {
+  background-color: #c4c4c4;
+  color: #ffffff;
+  padding: 10px 8px;
+  border: 10px;
+  border-width:;
+  width: auto;
 }

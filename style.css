@@ -175,6 +175,9 @@ h2 {
 .bloc{
   float: left;
   width: 33.3%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 .bloc h3{
   color: #543683;

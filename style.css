@@ -190,3 +190,21 @@ h2 {
   width: 99%;
   margin-left: 10px;
 }
+#main-block{
+    float: left;
+    color: #000000;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#main-block h3{
+    color: #543683;
+}
+#sidebar{
+  float: right;
+  width:30%;
+  background-color: #333;
+  color:rgb(255, 251, 251);
+  padding:15px;
+  box-sizing: border-box;
+}

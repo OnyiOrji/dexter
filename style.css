@@ -131,3 +131,13 @@ h2 {
   
   margin-left: 35px;
 }
+.bod input[type="text"], .bod textarea{
+  padding: 8px;
+  width: 100%;
+}
+.bod input[type="submit"]{
+  background-color: #b29adf;
+  color: #ffffff;
+  padding: 10px 8px;
+  border: none;
+}

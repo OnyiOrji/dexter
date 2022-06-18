@@ -207,6 +207,11 @@ h2 {
   color:rgb(255, 251, 251);
   padding:15px;
   box-sizing: border-box;
+  background-image: url('./assets/purple.jpg');
+  background-position: -85px -130px;
+  background-repeat: no-repeat;
+  
+
 }
 .fix-me .button{
   background-color: cadetblue;

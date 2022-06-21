@@ -45,12 +45,12 @@ body {
 }
 .img {
   background-color: #eeecec;
+  margin: auto;
   
-  border-width: 100%;
   border-bottom-width: 50px;
   margin-bottom: 100px;
   padding: 60px;
-  width: 100%;
+  width: 96%;
 
   
 }
@@ -281,6 +281,7 @@ h2 {
   margin-top: -250px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 170px;
 
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;

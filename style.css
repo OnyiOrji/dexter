@@ -220,7 +220,7 @@ h2 {
   background-color: #000000;
 }
 .container2{
-  width:auto;
+  width:96%;
   height:300px;
   border:2px solid rgb(255, 255, 255);
   display: flex;
@@ -230,7 +230,7 @@ h2 {
   
 }
 .box{
-  width: 250px;
+  width: 240px;
   height: 80px;
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
@@ -238,11 +238,12 @@ h2 {
   
 }
 .box-small{
-  width: 110px;
+  width: 120px;
   height: 80px;
   
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
+  
 }
 .contain{
   display: flex;
@@ -252,4 +253,19 @@ h2 {
 .box-small .img{
   margin-left: 20px;
   margin-bottom: 50px;
+}
+.new-container{
+  width: 80%;
+  margin:auto;
+  height:300px;
+  border:2px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+.new-container .header{
+  border: 4px solid lightgray;
+  width: 100%;
+  height: 20px;
 }

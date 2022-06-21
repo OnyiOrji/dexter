@@ -271,13 +271,16 @@ h2 {
   
 }
 .wrapper{
+  margin-bottom: -150px;
   display: flex;
+  flex-wrap: wrap;
 }
 .box-little{
   width: 120px;
   height: 80px;
   margin-top: -250px;
   margin-left: auto;
+  margin-right: auto;
 
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;

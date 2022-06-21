@@ -55,7 +55,7 @@ body {
   
 }
 h2 {
-  color: #ffffff;
+  color: #7c3ee0;
 
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -224,8 +224,8 @@ h2 {
   height:300px;
   border:2px solid rgb(255, 255, 255);
   display: flex;
-  flex-direction:row;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   
   
 }
@@ -234,7 +234,7 @@ h2 {
   height: 80px;
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
-  align-self: flex-start;
+  
   
 }
 .box-small{
@@ -242,4 +242,8 @@ h2 {
   height: 80px;
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
+}
+.contain{
+  display: flex;
+  flex-direction: row;
 }

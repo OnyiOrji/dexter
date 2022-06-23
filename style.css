@@ -313,8 +313,20 @@ h2 {
 
 }
 .box-big{
-  width: 120%;
+  width: 90%;
   height: 300px;
+  border: 4px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin: 15px;
+}
+.tiny-wrapper{
+  width: 130%;
+  display: flex;
+  
+}
+.box-sm{
+  width: 130%;
+  height: 80px;
   border: 4px solid rgb(255, 255, 255);
   box-sizing: border-box;
   margin: 15px;

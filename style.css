@@ -273,11 +273,10 @@ h2 {
 .wrapper{
   margin-bottom: -150px;
   display: flex;
-  flex-wrap: wrap;
   align-content: space-between;
 }
 .box-little{
-  width: 28%;
+  width: 20%;
   height: 100px;
   margin-top: -250px;
   margin-left: auto;
@@ -287,4 +286,35 @@ h2 {
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
   
+}
+.new-contain{
+  width:80%;
+  height:300px;
+  border:2px solid rgb(255, 255, 255);
+  display: flex;
+  margin: auto;
+  padding: 32px;
+}
+
+.boxes{
+  width: 120%;
+  height: 80px;
+  border: 4px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin: 15px;
+}
+.box-wrapper{
+
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+.box-big{
+  width: 120%;
+  height: 300px;
+  border: 4px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  margin: 15px;
 }

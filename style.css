@@ -37,7 +37,7 @@ body {
   font-weight: normal;
   line-height: 1.6em;
 }
-.img {
+/*.img {
   background-color: #eeecec;
   margin: auto;
   
@@ -48,6 +48,7 @@ body {
 
   
 }
+*/
 /*
 h2 {
   color: #7c3ee0;
@@ -250,10 +251,11 @@ h2 {
   flex-direction: row;
   
 }
-.box-small .img{
+/*.box-small .img{
   margin-left: 20px;
   margin-bottom: 50px;
 }
+*/
 .new-container{
   width: 80%;
   margin:auto;
@@ -397,13 +399,13 @@ ABOUT
 
 */
 #about {
-  display: flex;
-  padding: 48px 0;
+  
+  padding: 24px 0;
 }
 h2{
   font-size: 60px;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 .section__description {
   display: flex;

@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap");
 
 body {
   background-color: #ffffff;
   color: #ffffff;
-  
 }
 .container {
   width: 40%;
@@ -24,13 +23,10 @@ body {
   border-left: 5px rgb(54, 0, 141) solid;
   border-top: 5px rgb(229, 215, 252) solid;
   border-bottom: 5px rgb(229, 215, 252) solid;
-  
-  
 }
 .bod {
   background-color: #e7e4e4;
   color: #000000;
-  
 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -74,7 +70,7 @@ h2 {
 
 .shop {
   margin: 46px;
-  margin-top:200px;
+  margin-top: 200px;
 
   padding: 0;
   list-style: square;
@@ -117,60 +113,56 @@ h2 {
   width: 40%;
 }
 */
-.bod .form-group{
-     padding-bottom: 15px;
-     margin-top: 100px;
+.bod .form-group {
+  padding-bottom: 15px;
+  margin-top: 100px;
 }
-.bod label{
+.bod label {
   display: block;
 }
-.bod input{
+.bod input {
   padding: 8px;
   width: 40%;
 }
-.login h1{
-  
+.login h1 {
   margin-left: 35px;
 }
-.bod input[type="text"], .bod textarea{
+.bod input[type="text"],
+.bod textarea {
   padding: 8px;
   width: 100%;
 }
-.submit input[type="submit"]{
+.submit input[type="submit"] {
   background-color: #b29adf;
   color: #ffffff;
   padding: 10px 8px;
   border: none;
 }
-.button{
+.button {
   background-color: #b29adf;
   color: #ffffff;
   padding: 10px 10px;
   border-radius: 20px;
   margin-bottom: 20px;
-  margin-left: 3px; 
-
-  
+  margin-left: 3px;
 }
-.button:hover{
+.button:hover {
   background: #000000;
   color: #fff;
 }
-.submit .button{
+.submit .button {
   background-color: #b29adf;
   color: #ffffff;
   padding: 10px 10px;
   border-radius: 10px;
   margin-bottom: 20px;
-  margin-left: 3px; 
-
-  
+  margin-left: 3px;
 }
-.submit .button:hover{
+.submit .button:hover {
   background: #000000;
   color: #fff;
 }
-.bloc{
+.bloc {
   float: left;
   width: 33.3%;
   padding: 10px;
@@ -178,106 +170,98 @@ h2 {
   box-sizing: border-box;
   margin-bottom: 60px;
 }
-.bloc h3{
+.bloc h3 {
   color: #543683;
 }
-.bloc p{
+.bloc p {
   color: #000000;
 }
-.mainbl{
+.mainbl {
   width: 99%;
   margin-left: 10px;
 }
-#main-block{
-    float: left;
-    color: #000000;
-    width: 70%;
-    padding: 15px;
-    box-sizing: border-box;
-}
-#main-block h3{
-    color: #543683;
-}
-#sidebar{
-  float: right;
-  width:30%;
-  background-color: #333;
-  color:rgb(255, 251, 251);
-  padding:15px;
+#main-block {
+  float: left;
+  color: #000000;
+  width: 70%;
+  padding: 15px;
   box-sizing: border-box;
-  background-image: url('./assets/purple.jpg');
+}
+#main-block h3 {
+  color: #543683;
+}
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: rgb(255, 251, 251);
+  padding: 15px;
+  box-sizing: border-box;
+  background-image: url("./assets/purple.jpg");
   background-position: -85px -130px;
   background-repeat: no-repeat;
-  
-
 }
-.fix-me .button{
+.fix-me .button {
   background-color: cadetblue;
-  position:fixed;
+  position: fixed;
   top: 400px;
 }
-.fix-me .button:hover{
+.fix-me .button:hover {
   background-color: #000000;
 }
-.container2{
-  width:96%;
-  height:300px;
-  border:2px solid rgb(255, 255, 255);
+.container2 {
+  width: 96%;
+  height: 300px;
+  border: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 24px;
-  
 }
-.box{
+.box {
   width: 30%;
   height: 80px;
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
-  
-  
 }
-.box-small{
+.box-small {
   width: 120px;
   height: 80px;
-  
+
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
-  
 }
-.contain{
+.contain {
   width: 80%;
   display: flex;
   flex-direction: row;
-  
 }
 /*.box-small .img{
   margin-left: 20px;
   margin-bottom: 50px;
 }
 */
-.new-container{
+.new-container {
   width: 80%;
-  margin:auto;
-  height:300px;
-  border:2px solid rgb(255, 255, 255);
+  margin: auto;
+  height: 300px;
+  border: 2px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 24px;
 }
-.new-container .header{
+.new-container .header {
   border: 4px solid lightgray;
   width: 100%;
   height: 20px;
-  
 }
-.wrapper{
+.wrapper {
   margin-bottom: -150px;
   display: flex;
   align-content: space-between;
 }
-.box-little{
+.box-little {
   width: 20%;
   height: 100px;
   margin-top: -250px;
@@ -287,45 +271,40 @@ h2 {
 
   border: 2px solid rgb(255, 255, 255);
   box-sizing: border-box;
-  
 }
-.new-contain{
-  width:80%;
-  height:300px;
-  border:2px solid rgb(255, 255, 255);
+.new-contain {
+  width: 80%;
+  height: 300px;
+  border: 2px solid rgb(255, 255, 255);
   display: flex;
   margin: auto;
   padding: 82px;
 }
 
-.boxes{
+.boxes {
   width: 120%;
   height: 80px;
   border: 4px solid rgb(255, 255, 255);
   box-sizing: border-box;
   margin: 15px;
 }
-.box-wrapper{
-
+.box-wrapper {
   width: 40%;
   display: flex;
   flex-wrap: wrap;
-  
-
 }
-.box-big{
+.box-big {
   width: 90%;
   height: 300px;
   border: 4px solid rgb(255, 255, 255);
   box-sizing: border-box;
   margin: 15px;
 }
-.tiny-wrapper{
+.tiny-wrapper {
   width: 130%;
   display: flex;
-  
 }
-.box-sm{
+.box-sm {
   width: 130%;
   height: 80px;
   border: 4px solid rgb(255, 255, 255);
@@ -337,10 +316,10 @@ h2 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 nav {
-  height: 70px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -362,7 +341,7 @@ a {
   font-size: 24px;
   font-weight: 700;
 }
-header{
+header {
   background-color: #eadcff;
   height: calc(100vh - 70px);
   padding: 24px;
@@ -370,7 +349,7 @@ header{
   align-items: center;
   justify-content: center;
 }
-h1{
+h1 {
   color: black;
   font-size: 56px;
 }
@@ -379,7 +358,7 @@ h1{
   margin: 46px 0 64px 0;
 }
 button {
-  background-color:#05c7cf ;
+  background-color: #05c7cf;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -393,16 +372,22 @@ button {
   align-items: center;
   justify-content: center;
 }
+#about,
+#discord,
+#contact {
+  padding: 48px 0;
+}
+
 /*
 
 ABOUT
 
 */
 #about {
-  
+  background-color: #f8ffdc;
   padding: 48px 0;
 }
-h2{
+h2 {
   font-size: 60px;
   text-align: center;
   margin-bottom: 24px;
@@ -411,5 +396,50 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.about__img--wrapper {
+  width: 40%;
+  padding: 0 24px;
+}
+img {
+  width: 100%;
+}
+.section__description--wrapper {
+  width: 60%;
+  padding: 0 24px;
+}
+.section__description--para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+/*
 
+DISCORD
+
+*/
+
+#discord {
+  background-color: #cefeff;
+}
+/*
+
+CONTACT
+
+*/
+#contact {
+  background-color: #dce9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+input, textarea{
+  margin-bottom: 24px;
 }

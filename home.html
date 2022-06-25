@@ -10,7 +10,9 @@
 <body>
     <section>
         <nav>
-            <img src="./assets/FES.svg" alt="">
+            <figure>
+                <img src="./assets/FES.svg" alt="">
+            </figure>
             <ul>
                 <li><a href="#about">About</a>
                 </li>
@@ -38,28 +40,30 @@
         <section id="about">
             <h2>About</h2>
             <div class="section__description">
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
+                <div class="section__description--wrapper">
+                    <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
+                    <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
                     </p>
                 </div>
-                <figure>
-                    <img src="./assets/Dashboard/about2.jpg" alt="">
+                <figure class="about__img--wrapper">
+                    <img src="./assets/Dashboard/about.jpg" alt="">
                 </figure>
             </div>
         </section>
 
         <section id="discord">
             <h2>Discord</h2>
-            <figure>
-                <img src="./assets/discord.png" alt="">
-            </figure>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
-                </p>
+            <div class="section__description">
+                <figure>
+                    <img src="./assets/discord.png" alt="">
+                </figure>
+                <div class="section__description--wrapper">
+                    <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
+                    </p>
+                    <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi pariatur deserunt perspiciatis at voluptates in mollitia distinctio, animi, omnis ipsum, similique iure quibusdam. Qui laudantium explicabo voluptates veniam sed!
+                    </p>
+                </div>
             </div>
         </section>
 
@@ -70,7 +74,6 @@
                 <input type="text" placeholder="jane@example.com">
                 <label>Message</label>
                 <textarea type="text" placeholder="jane@example.com">
-                    
             </form>
         </section>
     </main>

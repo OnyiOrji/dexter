@@ -120,10 +120,12 @@ h2 {
 .bod label {
   display: block;
 }
+/* 
 .bod input {
   padding: 8px;
   width: 40%;
 }
+*/
 .login h1 {
   margin-left: 35px;
 }
@@ -132,12 +134,14 @@ h2 {
   padding: 8px;
   width: 100%;
 }
+/*
 .submit input[type="submit"] {
   background-color: #b29adf;
   color: #ffffff;
   padding: 10px 8px;
   border: none;
 }
+*/
 .button {
   background-color: #b29adf;
   color: #ffffff;
@@ -440,6 +444,8 @@ form {
   flex-direction: column;
   margin: 0 auto;
 }
+/*
 input, textarea{
   margin-bottom: 24px;
 }
+*/
